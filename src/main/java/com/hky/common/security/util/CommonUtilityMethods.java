@@ -1,4 +1,4 @@
-package com.hky.common.util;
+package com.hky.common.security.util;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
