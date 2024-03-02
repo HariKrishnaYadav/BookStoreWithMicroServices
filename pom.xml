@@ -9,14 +9,14 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath />
 	</parent>
-	<groupId>com.devd.spring</groupId>
-	<artifactId>bookstore-commons</artifactId>
+	<groupId>com.hky.spring</groupId>
+	<artifactId>bookstore-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookstore-commons</name>
 	<description>Library for common code in bookstore application</description>
 
 	<properties>
-		<java.version>17</java.version>
+		<java.version>1.8</java.version>
 		<jjwt.version>0.9.0</jjwt.version>
 		<spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
 	</properties>
@@ -129,7 +129,8 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<version>1.18.30</version>
+
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -161,6 +162,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<mainClass>com.hky.common</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>

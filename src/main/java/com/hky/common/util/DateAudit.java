@@ -1,4 +1,4 @@
-package com.hky.common.security.util;
+package com.hky.common.util;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
